@@ -20,6 +20,10 @@ section,header,footer{
     padding: 17px 34px;
     color: white;
 }
+.main-btn:hover{
+    background-color: white;
+    color: #006A50;
+}
 /* nav styles */
 nav{
     display: flex;
@@ -108,4 +112,84 @@ header{
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
+}
+/* vision styles */
+.vision-title{
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.vision-description{
+    margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.vision-container{
+    display: flex;
+    gap: 24px;
+}
+.vision-card{
+    border-radius: 16px;
+    padding: 32px;
+    width: 410.67px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    justify-content: space-between;
+ 
+}
+.vision-card-description{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-left: 0;
+}
+.vision-card-title{
+    margin-left: 0;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    opacity: 0.8;
+}
+.vission-btn1{
+    margin-left: 0;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin-top: 24px;
+}
+.vission-btn2{
+    margin-left: 0;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92); 
+    font-size: 16px;
+    font-weight: 600;
+    color: white;  
+    margin-top: 24px; 
+}
+.vission-btn3{
+    margin-left: 0;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin-top: 24px;
+}
+.vision-card img{
+    margin-left: 0;
+}
+.vission-btn1:hover, .vission-btn2:hover, .vission-btn3:hover{
+    background:transparent;
+    color: black;
+    border: 1px dashed white;
 }
