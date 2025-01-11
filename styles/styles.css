@@ -1,42 +1,56 @@
 /* universal styles */
-*{
+* {
     margin: 0 auto;
     font-family: "Fira Sans", serif;
     color: #0E0E0E;
 }
-body{
+
+body {
     background-color: rgba(245, 245, 245, 1.00);
 }
-nav,section,header,footer{
-    width: 1280px;  
-    
+
+nav,
+section,
+header,
+footer {
+    width: 1280px;
+
 }
-section,header,footer{
+
+section,
+header,
+footer {
     margin-bottom: 80px;
 }
-.main-btn{
+
+.main-btn {
     border-radius: 8px;
     background: rgb(0, 106, 80);
     padding: 17px 34px;
     color: white;
+    border: none;
 }
-.main-btn:hover{
+
+.main-btn:hover {
     background-color: white;
     color: #006A50;
 }
+
 /* nav styles */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     gap: 940px;
-    margin: 31px auto ;
+    margin: 31px auto;
     margin-bottom: 44px;
 }
-.nav-title{
+
+.nav-title {
     font-size: 32px;
-    font-weight: bold; 
+    font-weight: bold;
 }
-.nav-btn{
+
+.nav-btn {
     padding: 15px 30px;
     color: #006A50;
     border: 1px solid #006A50;
@@ -44,15 +58,18 @@ nav{
     font-size: 18px;
     font-weight: 600;
 }
-.nav-btn:hover{
+
+.nav-btn:hover {
     background-color: rgb(0, 106, 80);
     color: white;
 }
-img{
-    mix-blend-mode:multiply;
+
+img {
+    mix-blend-mode: multiply;
 }
+
 /* header styles */
-header{
+header {
     border-radius: 24px;
     background: rgb(198, 228, 214);
     display: flex;
@@ -61,78 +78,94 @@ header{
     align-items: center;
     gap: 64px;
 }
-.header-col1{
-    margin-left: 60px ;
+
+.header-col1 {
+    margin-left: 60px;
     background-color: rgb(198, 228, 214);
 }
-.header-col2{
+
+.header-col2 {
     margin-right: 60px;
     background-color: rgb(198, 228, 214);
-    background: rgb(198, 228, 214);;
+    background: rgb(198, 228, 214);
+    ;
 }
-.header-subtitle{
+
+.header-subtitle {
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
     font-weight: 500;
     background-color: rgb(198, 228, 214);
 }
-.header-title{
+
+.header-title {
     font-weight: bold;
     font-size: 56px;
     color: rgba(14, 14, 14, 1);
     background-color: rgb(198, 228, 214);
 }
+
 /* piller styles */
-.piller-title{
+.piller-title {
     margin-bottom: 32px;
 }
-.piller-container{
+
+.piller-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
 }
-.piller-card{
+
+.piller-card {
     width: 302px;
     padding: 24px;
     background-color: white;
     border-radius: 16px;
 
 }
-.piller-card:hover{
+
+.piller-card:hover {
     background-color: grey;
 }
-.piller-img{
+
+.piller-img {
     margin-bottom: 24px;
 }
-.piller-card-title{
+
+.piller-card-title {
     margin-bottom: 12px;
     font-size: 20px;
     font-weight: 700;
     color: rgba(14, 14, 14, 0.8);
 }
-.piller-card-description{
+
+.piller-card-description {
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
 }
+
 /* vision styles */
-.vision-title{
+.vision-title {
     margin-bottom: 24px;
     font-size: 40px;
     font-weight: 700;
 }
-.vision-description{
+
+.vision-description {
     margin-bottom: 32px;
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
 }
-.vision-container{
+
+.vision-container {
     display: flex;
     gap: 24px;
 }
-.vision-card{
+
+.vision-card {
     border-radius: 16px;
     padding: 32px;
     width: 410.67px;
@@ -140,16 +173,18 @@ header{
     flex-direction: column;
     margin-left: 0;
     justify-content: space-between; */
- 
+
 }
-.vision-card-description{
+
+.vision-card-description {
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
     margin-left: 0;
     opacity: 0.7;
 }
-.vision-card-title{
+
+.vision-card-title {
     margin-left: 0;
     font-size: 20px;
     font-weight: 700;
@@ -157,7 +192,8 @@ header{
     margin-bottom: 12px;
     opacity: 0.8;
 }
-.vission-btn1{
+
+.vission-btn1 {
     margin-left: 0;
     border: none;
     padding: 11px 20px;
@@ -168,19 +204,21 @@ header{
     color: white;
     margin-top: 24px;
 }
-.vission-btn2{
+
+.vission-btn2 {
     margin-left: 0;
     border: none;
     padding: 11px 20px;
     border-radius: 8px;
-    background: rgb(9, 161, 92); 
+    background: rgb(9, 161, 92);
     font-size: 16px;
     font-weight: 600;
-    color: white;  
-    margin-top: 24px; 
+    color: white;
+    margin-top: 24px;
     margin-bottom: 0;
 }
-.vission-btn3{
+
+.vission-btn3 {
     margin-left: 0;
     border: none;
     padding: 11px 20px;
@@ -191,17 +229,22 @@ header{
     color: white;
     margin-top: 24px;
 }
-.vision-card img{
+
+.vision-card img {
     margin-left: 0;
 }
-.vission-btn1:hover, .vission-btn2:hover, .vission-btn3:hover{
-    background:transparent;
+
+.vission-btn1:hover,
+.vission-btn2:hover,
+.vission-btn3:hover {
+    background: transparent;
     color: black;
     border: 1px dashed white;
 }
+
 /* quote styles */
 
-.quote{
+.quote {
     background-color: white;
     padding: 48px 24px;
     border-radius: 16px;
@@ -210,18 +253,95 @@ header{
     background-position: 24px 22px;
     width: 1232px;
 }
-.quote-quote{
+
+.quote-quote {
     font-size: 16px;
     font-weight: 400;
     opacity: 0.8;
+    margin-bottom: 12px;
 }
-.quote-name{
+
+.quote-name {
     font-size: 20px;
     font-weight: 600;
     opacity: 0.8;
+    margin-bottom: 4px;
 }
-.quote-info{
+
+.quote-info {
     font-size: 16px;
     font-weight: 400;
     opacity: 0.6;
+}
+
+/* news styles */
+.news-heading {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.news-heading-description {
+    margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.time {
+    margin-left: 12px;
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+}
+
+.news-img img {
+    border-radius: 24px;
+    margin-bottom: 12px;
+}
+
+.news-container {
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    background-color: white;
+    border-radius: 24px;
+    max-height: 306px;
+    margin-bottom: 24px;
+}
+
+.news-title {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.date {
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+.news-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.news-btn{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 13px 26px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+
+.news-btn:hover {
+    background-color: rgb(192, 247, 221);
+    color: #006A50;
 }
