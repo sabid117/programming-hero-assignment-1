@@ -99,6 +99,9 @@ header{
     border-radius: 16px;
 
 }
+.piller-card:hover{
+    background-color: grey;
+}
 .piller-img{
     margin-bottom: 24px;
 }
@@ -123,6 +126,7 @@ header{
     margin-bottom: 32px;
     font-size: 16px;
     font-weight: 400;
+    opacity: 0.7;
 }
 .vision-container{
     display: flex;
@@ -143,6 +147,7 @@ header{
     font-weight: 400;
     opacity: 0.7;
     margin-left: 0;
+    opacity: 0.7;
 }
 .vision-card-title{
     margin-left: 0;
@@ -193,4 +198,30 @@ header{
     background:transparent;
     color: black;
     border: 1px dashed white;
+}
+/* quote styles */
+
+.quote{
+    background-color: white;
+    padding: 48px 24px;
+    border-radius: 16px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 22px;
+    width: 1232px;
+}
+.quote-quote{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+.quote-name{
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+.quote-info{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.6;
 }
